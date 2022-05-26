@@ -15,6 +15,12 @@
   font-family: Fondamento;
   color: darkGreen;
 }
+#grey{
+  background-color: darkGrey;
+}
+#grey a{
+  color: white;
+}
 .noah-img{
   max-width: 75px;
   max-height: 75px;
