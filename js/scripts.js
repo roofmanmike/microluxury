@@ -10,6 +10,16 @@ $('#aleutian').click(function(){
   window.location.href="aleutian.html";
 })
 
+function dateFunc(){
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 2).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + '/' + dd + '/' + yyyy;
+$('#date1').text(today);
+}
+dateFunc();
 $(document).ready(function () {
     $('.dropdown-toggle').mouseover(function() {
         $('.dropdown-menu').show();
