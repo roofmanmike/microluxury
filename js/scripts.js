@@ -1,7 +1,13 @@
 $('body').css("background-color", "gainsboro");
 
-$('#clicker').click(function(){
+$('#sierra').click(function(){
   window.location.href="sierra.html";
+})
+$('#brooks').click(function(){
+  window.location.href="brooks.html";
+})
+$('#aleutian').click(function(){
+  window.location.href="aleutian.html";
 })
 
 $(document).ready(function () {
