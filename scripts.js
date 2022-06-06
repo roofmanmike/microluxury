@@ -23,3 +23,4 @@ window.addEventListener('DOMContentLoaded', () => {
         scrollPos = currentTop;
     });
 })
+$('h1').css("color", "red");
