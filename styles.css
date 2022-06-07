@@ -37,13 +37,14 @@
    background-color: black;
    font-family: cursive;
  }
- 
+
 .pic_div {
   justify-content: center;
   text-align: center;
   min-width: 100%;
   min-height: 100%;
 }
+
 .icon{
   max-width: 10vh;
   max-height: 15vh;
