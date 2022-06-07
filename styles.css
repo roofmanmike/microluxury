@@ -14,7 +14,9 @@
   background-color: red;
   min-height: 2vh;
 }
-
+.red{
+  color:red;
+}
 .ltYel{
   background-color: lightYellow;
 }
