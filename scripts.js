@@ -1,4 +1,14 @@
+function dateFunc(){
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 2).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
 
+today = mm + '/' + dd + '/' + yyyy;
+$('#nextMonth').text(today);
+console.log(today);
+}
+dateFunc();
 window.addEventListener('DOMContentLoaded', () => {
     let scrollPos = 0;
     const mainNav = document.getElementById('mainNav');
